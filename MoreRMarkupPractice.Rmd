@@ -1,0 +1,39 @@
+---
+title: "MoreRMarkupPractice"
+author: "SBraz"
+date: "2/21/2023"
+output: rmarkdown::github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown Intro Editing, It's just HTML!
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring:
+
+* HTML  
+* PDF  
+* MS Word document
+
+For more details on using R Markdown, click here: [More Info](http://rmarkdown.rstudio.com)
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+![Plot this way](https://toppng.com/uploads/preview/arrow-blue-down-clip-art-blue-arrow-pointing-dow-11562998829k8g0r2vcce.png) *will figure out how to resize and remove the background*
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+

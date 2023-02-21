@@ -2,7 +2,7 @@
 title: "RMarkDown Activity!"
 author: "SBraz"
 date: "2/21/2023"
-output: html_document
+output: rmarkdown::github_document
 ---
 ### WHOA!!!! THIS IS THE FILE FORMAT SYNTAX I'VE SEEN ON GITHUB THAT TURNS THE CODE INTO A DYNAMIC DOCUMENT!!!!!
 ## This is going to take my portfolio to the next level! Seamless code!!
